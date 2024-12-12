@@ -1,0 +1,80 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+
+    header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background: white;
+    }
+
+    .card-content li{
+        margin: 10px;
+    }
+    .social {
+        width: 16px;
+        height: 16px;
+    }
+
+    .left-column {
+        float: left;
+        width: 25%;
+        padding-right: 20px;
+    }
+
+    #profissional-picture {
+        animation-duration: 4s;
+        animation-name: rotate-image;
+        animation-timing-function: ease-in-out;
+        animation-delay: 2s;
+        animation-iteration-count: 2;
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+
+    @keyframes rotate-image {
+        50% {
+            transform: translateZ(-10px) rotateX(60deg) rotateZ(29deg) rotateY(-180deg);
+        }
+    }
+
+    .middle-column {
+        float: left;
+        width: 50%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .right-column {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+        position: sticky;
+        top: 0;
+    }
+
+    article {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+
+    main {
+        content: "";
+        display: table;
+        clear: both;
+    }
